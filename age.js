@@ -4,7 +4,7 @@ function calculate(){
     if (age == '' || age == 0 ){
        document.getElementById('year').style.display = 'block';
        document.getElementById('year').innerHTML = 'Warning: Please enter a valid age'
-       document.getElementById('year').style.color = 'red';      
+       document.getElementById('year').style.color = '#4CAF50';      
     }
     else{       
        var date = new Date().getFullYear();
