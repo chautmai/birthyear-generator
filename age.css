@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
 
+}
 body{
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(217, 250, 212);
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
@@ -13,15 +13,15 @@ body{
     margin: auto;
     width: 40%;
     height: 50vh;
-    border: 3px dotted #73AD21;
+    border: 3px double #73AD21;
     padding-top: 15px;
     overflow: hidden;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
     font-size: 18px;    
+    
 }
-
 h1{
     color: #4CAF50;
     text-transform: uppercase;
@@ -29,7 +29,9 @@ h1{
 }
 
 form {
-    padding-top: 60px;    
+    padding-top: 60px;
+    
+    
 }
 
 #age{
@@ -39,7 +41,6 @@ form {
     box-sizing: border-box;
     border: 1px solid #ccc;   
 }
-
 #button{
     height: 40px;
     background-color: #4CAF50;
@@ -47,7 +48,8 @@ form {
     color: white;
     font-size: 15px;
     width: 300px;
-    box-shadow: 3px 2px 2px #3a943d;  
+    box-shadow: 3px 2px 2px #3a943d;
+   
 }
 
 #button:hover{
@@ -58,12 +60,21 @@ form {
     padding-top: 10px;
     height: 30px;
     width: 350px;
-    color: red;    
+    color: red;
+    
+    
+    
 }
 
 #currentYear{
     height: 30px;
     width: 300px;
     padding: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 
