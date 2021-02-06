@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(59, 59, 59);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: auto;
+    width: 40%;
+    height: 50vh;
+    border: 3px solid #73AD21;
+    padding-top: 15px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-size: 18px;
+    
+}
+
+form {
+    padding-top: 60px;
+    
+    
+}
+
+#age{
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    box-shadow: 3px 2px 2px #c5c7c5;
+}
+#button{
+    height: 25px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 15px;
+    width: 300px;
+    box-shadow: 3px 2px 2px #3a943d;
+   
+}
+
+#button:hover{
+    background-color:#3a943d;
+}
+
+#year {
+    padding-top: 10px;
+    height: 30px;
+    width: 350px;
+    color: red;
+    border
+    
+    
+}
+
+#currentYear{
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+}
