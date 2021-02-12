@@ -3,7 +3,7 @@ function calculate(){
 
     if (age == '' || age == 0 ){
        document.getElementById('year').style.display = 'block';
-       document.getElementById('year').innerHTML = 'Warning: Please enter a valid age'     
+       document.getElementById('year').innerHTML = 'Warning: Please enter a valid age.'     
     }
     else{       
        var date = new Date().getFullYear();
